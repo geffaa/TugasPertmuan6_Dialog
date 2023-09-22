@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TugasPertemuan6_Dialog</string>
+    <array name="country">
+        <item>Silahkan Pilih Negara Anda</item>
+        <item>Indonesia</item>
+        <item>Australia</item>
+        <item>Japan</item>
+        <item>Jamaica</item>
+        <item>Egypt</item>
+    </array>
+    <array name="kehadiran">
+        <item>Hadir Tepat Waktu</item>
+        <item>Sakit</item>
+        <item>Terlambat</item>
+        <item>Izin</item>
+    </array>
+    <string name="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae dolor dolorem sint eligendi ab veniam consectetur corrupti culpa natus sed rem ut doloribus nobis repudiandae at, nihil asperiores accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae dolor dolorem sint eligendi ab veniam consectetur corrupti culpa natus sed rem ut doloribus nobis repudiandae at, nihil asperiores accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae dolor dolorem sint eligendi ab veniam consectetur corrupti culpa natus sed rem ut doloribus nobis repudiandae at, nihil asperiores accusantium.</string>
+</resources>
