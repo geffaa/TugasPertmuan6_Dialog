@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingVertical="24dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -21,7 +20,7 @@
             android:layout_marginBottom="44dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Presensi"
-            android:textColor="@color/black"/>
+            android:textColor="@color/gray"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -32,7 +31,7 @@
 
             <CalendarView
                 android:layout_width="286dp"
-                android:layout_height="267dp"
+                android:layout_height="300dp"
                 android:selectedWeekBackgroundColor="@color/black"
                 android:id="@+id/calendar"/>
 
@@ -41,14 +40,14 @@
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="50dp"
             android:layout_gravity="center"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp">
 
             <TimePicker
-                android:layout_width="240dp"
-                android:layout_height="150dp"
+                android:layout_width="286dp"
+                android:layout_height="170dp"
                 android:timePickerMode="spinner"
                 android:id="@+id/jam"
                 />
@@ -58,7 +57,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="32dp"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginVertical="20dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -81,8 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:background="@drawable/bg_editext"
-                android:paddingStart="24dp"
+                android:background="@drawable/spinner_background"
+                android:paddingStart="20dp"
                 android:minHeight="48dp"
                 android:hint="Keterangan"
                 android:visibility="gone"
@@ -94,11 +94,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="32dp"
-            android:background="@drawable/bg_button"
+            android:minHeight="48dp"
+            android:background="@drawable/spinner_background"
             android:text="Submit"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:id="@+id/btn_submit"/>
     </LinearLayout>
 
